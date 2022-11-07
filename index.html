@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Fit</title>
+<!-- Icone da pagina -->
+
+<!-- Google Fonts-Lato -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https: //fonts.googleapis.com/css2? family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 & display=swap" rel="stylesheet"/>
+<!-- CSS Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+<!-- Css do Projeto -->
+<link rel="stylesheet" href="Css/Styles.css"/>
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+crossorigin="anonymous">
+</script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary-color"id="navbar">
+        <div class="container py-3">
+             <a href="#" class="navbar-brand">
+              <img src="img/logo.png" alt="Sites"/>
+              <span>HOME FIT</span>
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="#">Nossa Soluções</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary-color">Contato</a>
+              </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+      <!--Slider-->
+      <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+          <div class="carousel-indicators ">
+            <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="slide 1"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="1"  aria-label="slide 2"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="2"  aria-label="slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/frijol-2.jpg" class="d-block w-100 img-responsive" alt="Alimento 1">
+             <div class="carousel-caption">
+              <h2>São aqueles submetidos a algum processo, mas que não envolvam agregação de substâncias ao alimento original.</h2>
+             <a href="#" class="btn btn-dark">Saiba Mais</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/frijol-1.jpg" class="d-block w-100" alt="Alimento 2">
+              <div class="carousel-caption">
+                <h2>Lentilhas, cogumelos, frutas secas, sucos de frutas sem adição de açúcar, castanhas e nozes sem sal, também entram nesta categoria.</h2>
+               <a href="#" class="btn btn-dark">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/frijol-3.jpg" class="d-block w-100" alt="Alimento 3">
+              <div class="carousel-caption">
+                <h2>De acordo com (IFPA, 2001), produtos minimamente processados são frutas ou hortaliças que são modificadas fisicamente</h2>
+               <a href="#" class="btn btn-dark">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev" aria-hidden="true">
+            <i class="bi bi-chevron-compact-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+            <i class="bi bi-chevron-compact-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--Mini Banners-->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="card text-center">
+                <i class="bi bi-stars primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">Limpeza</h5>
+                <p class="card-text secondary-color">
+                  Passam por processos, em sua grande maioria mecânicos,  para que cheguem da melhor forma em sua casa.
+                </p>
+                <a href="#" class="btn btn-dark">Saiba Mais</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="card text-center">
+                <i class="bi bi-box primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">Embalagens</h5>
+                <p class="card-text secondary-color">
+                  O objetivo destes processos é aumentar a disponibilidade ao alimento, o tornando mais seguro.
+                </p>
+                <a href="#" class="btn btn-dark">Saiba Mais</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="card text-center">
+                <i class="bi bi-award primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">Alimento original</h5>
+                <p class="card-text secondary-color">
+                  O processamento mínimo não envolve a adição de ingredientes ou aditivos ao alimento original.
+                </p>
+                <a href="#" class="btn btn-dark">Saiba Mais</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+       <!--Destaques-->
+      <div class="container" id="featured-container">
+        <div class="col-12">
+          <h2 class="title primary-color">Trabalhos em destaques</h2>
+          <p class="Subtitle secondary-color">Conheça nossas soluções</p>
+        </div>
+        <div class=" col-12" id="featured-images">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <img src="img/PRODUTO1.jpg" alt="Projeto 1" class="img-fluid">
+              <div class="banner-content">
+                <p class="secondary-color">Hortiliça</p>
+                <h3>Folhagens</h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <img src="img/PRODUTO2.jpg" alt="Projeto 2" class="img-fluid">
+              <div class="banner-content">
+                <p class="secondary-color">Legumes</p>
+                <h3>Fatiados e descascados</h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <img src="img/PRODUTO3.jpg" alt="Projeto 3" class="img-fluid">
+              <div class="banner-content">
+                <p class="secondary-color">Frutas</p>
+                <h3>Processamento mínimo</h3>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-4">
+              <img src="img/PRODUTO5.jpg" alt="Projeto 1" class="img-fluid">
+              <div class="banner-content">
+                <p class="secondary-color">Grãos</p>
+                <h3>Sementes e grãos</h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <img src="img/PRODUTO4.jpg" alt="Projeto 2" class="img-fluid">
+              <div class="banner-content">
+                <p class="secondary-color">Legumes</p>
+                <h3>Lavagem e limpeza</h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <img src="img/PRODUTO6.PNG" alt="Projeto 3" class="img-fluid">
+              <div class="banner-content">
+                <p class="secondary-color">Frutas</p>
+                <h3>Cortado e Processado</h3>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Detalhes importantes -->
+      
+      <div class="container" id="info-container"><br>
+        <div class="col-12">
+          <h2 class="title primary-color">Detalhes importantes</h2>
+          <p class="subtitle secondary-color">Conheça nossas souções de mini processamento</p>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-md-5" id="info-banner">
+              <img src="img/home fit.png"alt="Informações da Empresa" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="title primary-color">Estes dados fazem a diferença</h2>
+                  <p class="subtitle secondary-color">O alimento Industrializado é o Alimento Processado por meio da Atividade Industrial, que é a transformação de gêneros alimentícios em produtos comercializáveis, por processamento que utiliza máquinas, equipamentos e força de trabalho contratada. Os alimentos industrializados não são exclusividade das grandes empresas. Eles podem ser produzidos em pequena e grande escala.</p>
+                </div>
+                <div class="col-12" id="info-numbers">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="primary-color"><h3>06</h3>
+                        <p class="secondary-color">Meses no Processamento de produtos</p>
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class="primary-color"><h3>500</h3>
+                        <p class="secondary-color">Produtos vendidos</p>
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class="primary-color"><h3>70</h3>
+                        <p class="secondary-color">Clientes atendidos</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <a href="#" class="btn btn-dark">Saiba Mais</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Banners-->
+      <div class="container" id="featured-container">
+        <div class="col-12">
+          <h2 class="title primary-color">Quem Somos</h2>
+          <p class="Subtitle secondary-color">Conheça nossas soluções</p>
+        </div>
+      <div class="col-12 col-md-10 offset-md-1" id="banners">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-graph-up-arrow primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Missão</h5>
+              <p class="card-text secondary-color">
+                Nossa Missão é entregar produtos de excelente qualidade, ótimo custo beneficio e facil preparo, trazendo praticidade para o dia a dia dos clientes
+              </p>
+              <a href="#" class="btn btn-dark">Saiba Mais</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-eye-fill primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Visão</h5>
+              <p class="card-text secondary-color">
+                Ser reconhecida com excelência no mercado por processar e comercializar produtos de alta qualidade,levando alimento saudavel ao consumidor.
+              </p>
+              <a href="#" class="btn btn-dark">Saiba Mais</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-heart-fill primary-color"></i>
+            <div class="card-body">
+              <h5 class="card-title primary-color">Valores</h5>
+              <p class="card-text secondary-color">
+                Responsabilidade, integridade, sustentabilidade econômica, social e ambiental, qualidade nos produtos e atenção aos detalhes
+              </p>
+              <a href="#" class="btn btn-dark">Saiba Mais</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <!-- Footer-->
+      <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+          <div class="row">
+            <!--footer top-->
+            <div class="col-12" id="footer-top">
+              <div class="row justify-content-between">
+                <div class="col-4"><h2>HOME FIT</h2></div>
+                <div class="COL-4" id="social-icons">
+                  <i class="bi bi-youtube"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <!--footer details-->
+            <div class="col-12" id="footer-details">
+              <div class="row">
+                <div class="col-12 col-md-4" id="news-container">
+                  <h4>Fique por dentro das novidades</h4>
+                  <p class="third-color">Inscreva-se para saber em primeira mão</p>
+                  <form >
+                    <div class="input-group mb-3">
+                      <input type="email" class="form-control" placeholder="Digite o seu email"/>
+                    </div>
+                      <button class="btn btn-dark" type="submit">Inscrever</button>
+                  </form>
+                </div>
+                <div class="col-12 col-md-4" id="contact-container">
+                  <h4>Formas de contato:</h4>
+                  <p class="third-color ">(31) 9999-9999</p>
+                  <p class="third-color ">contato@homefit.com.br</p>
+                </div>
+                <div class="col-12 col-md-4" id="links-container">
+                  <div class="row">
+                    <h4>Você pode estar procurando por:</h4>
+                    <div class="col-6">
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="third-color">Nossas Soluções</a></li>
+                        <li><a href="#" class="third-color">Venda</a></li>
+                        <li><a href="#" class="third-color">sobre</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-6">
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="third-color">Contato</a></li>
+                        <li><a href="#" class="third-color">Trabalhe conosco</a></li>
+                        <li><a href="#" class="third-color">Dúvidas e sugestões</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--footer bottom-->
+            <div class="col-12" id="footer-bottom">
+              <div class="row justify-content-between">
+                <div class="col-12 col-md-3">
+                  <p class="third-color">Home Fit &copy;</p>
+                </div>
+                <div class="col-12 col-md-3">
+                  <p class="third-color">Realizamos o seu projeto <i class="bi bi-heart"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+   </body>
+</html>
